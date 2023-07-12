@@ -37,3 +37,8 @@ skaitlis ir pāra.
 5. Uzraksti funkciju, kas pārbauda vai padotais vārds sakrīt ar esošo vārdu.
 6. Uzraksti funkciju, kas pārbauda vai padotais skaitlis ir pozitīvs, negatīvs vai nulle.
 7. Uzraksti funkciju, kurai tiek padots masīvs ar skaitļiem un tā izprintē skaitļu summu. Uzraksti funkciju, kas pārbauda vai sarakstā atrodas konkrēts vārds.
+   
+
+## Resursi
+- https://dev.to/scofieldidehen/understanding-dom-manipulation-with-javascript-5073
+- https://dev.to/akashpattnaik/10-secret-tips-that-make-you-a-better-javascript-programmer-16e6
