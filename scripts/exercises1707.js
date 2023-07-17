@@ -68,6 +68,7 @@ for (let i = 0; i < fruits.length; i++) {
    }
 }*/
 
+//piemēri
 let l = 0;
 while (l < 6) {
     l++;
@@ -88,3 +89,51 @@ while (skaitītājs < 5) {
     text += "Sveiki ";
     console.log(text)
 }
+
+//Funkcijas
+
+//1.
+function greeting() {
+    console.log("Sveiki, " + "Jānis" + "!");
+}
+greeting();
+
+//2.
+function calculateArea(garums, platums) {
+    console.log("Laukums ir " + garums * platums);
+}
+calculateArea(10, 11);
+
+//3.
+function isOdd(skaitlis) {
+    if (skaitlis % 2 == 0) {
+        console.log("Ir pāra skaitlis");
+    } else {
+        console.log("Ir nepāra skaitlis");
+    }
+}
+isOdd(25);
+
+//4.
+function calculateSum([n1, n2, n3]) {
+    console.log(n1 + n2 + n3);
+}
+calculateSum([11, 22, 33]);
+
+//5.
+function checkName(vārds1, vārds2) {
+    if (vārds1 === vārds2) {
+        console.log("Sakrīt!!!");
+    } else {
+        console.log("Nesakrīt!!!")
+    }
+}
+checkName("saule", "mēness");
+
+//6.
+function checkName1(saraksts, vārds) {
+    return saraksts.includes(vārds);
+}
+const saraksts = ["darbs", "māja", "skola", "parks"];
+const vārds = "darbs";
+console.log(checkName1(saraksts, vārds));

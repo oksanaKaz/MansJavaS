@@ -85,11 +85,3 @@ if (skaitlis % 3 == 0 && skaitlis % 5 == 0) {
     console.log("Nedalās");
 }
 
-//3.
-let c = 23;
-let b = 22;
-if (c > b) {
-    console.log("c ir lielāks par b");
-}else {
-    console.log("c nav lielāks par b");
-}
